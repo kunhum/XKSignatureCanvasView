@@ -1,0 +1,6 @@
+framework module Pods_XKSignatureCanvasView_Tests {
+  umbrella header "Pods-XKSignatureCanvasView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

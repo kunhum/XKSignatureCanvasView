@@ -1,0 +1,16 @@
+PODS:
+  - XKSignatureCanvasView (0.0.1)
+
+DEPENDENCIES:
+  - XKSignatureCanvasView (from `../`)
+
+EXTERNAL SOURCES:
+  XKSignatureCanvasView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XKSignatureCanvasView: 8bf0997fc8543e6508d67072770678db4311731d
+
+PODFILE CHECKSUM: 56c76d82d309beed34572b20ba6f2fa70b129071
+
+COCOAPODS: 1.16.2

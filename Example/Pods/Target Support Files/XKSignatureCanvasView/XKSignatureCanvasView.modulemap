@@ -1,0 +1,6 @@
+framework module XKSignatureCanvasView {
+  umbrella header "XKSignatureCanvasView-umbrella.h"
+
+  export *
+  module * { export * }
+}

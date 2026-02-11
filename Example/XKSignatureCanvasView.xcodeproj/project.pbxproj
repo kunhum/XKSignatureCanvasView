@@ -30,8 +30,8 @@
 /* Begin PBXFileReference section */
 		21FA266E33F15CDB52C29B91 /* Pods_XKSignatureCanvasView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XKSignatureCanvasView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		256F865FE5D9B0B6B7A7C2E5 /* Pods-XKSignatureCanvasView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKSignatureCanvasView_Example.release.xcconfig"; path = "Target Support Files/Pods-XKSignatureCanvasView_Example/Pods-XKSignatureCanvasView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		46AA1CA813EE97C028C72797 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		602D7F5A430E8F67E8444807 /* XKSignatureCanvasView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XKSignatureCanvasView.podspec; path = ../XKSignatureCanvasView.podspec; sourceTree = "<group>"; };
+		46AA1CA813EE97C028C72797 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		602D7F5A430E8F67E8444807 /* XKSignatureCanvasView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XKSignatureCanvasView.podspec; path = ../XKSignatureCanvasView.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* XKSignatureCanvasView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XKSignatureCanvasView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		607FACE51AFB9204008FA782 /* XKSignatureCanvasView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XKSignatureCanvasView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6D9CD36A6501B5FC9E140C55 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6D9CD36A6501B5FC9E140C55 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		968395E01982E1BE4700AC05 /* Pods-XKSignatureCanvasView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKSignatureCanvasView_Example.debug.xcconfig"; path = "Target Support Files/Pods-XKSignatureCanvasView_Example/Pods-XKSignatureCanvasView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C1DAEEF95BF23F3F3BC6D5AB /* Pods-XKSignatureCanvasView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKSignatureCanvasView_Tests.release.xcconfig"; path = "Target Support Files/Pods-XKSignatureCanvasView_Tests/Pods-XKSignatureCanvasView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C25854BE03CB450C8C83E432 /* Pods-XKSignatureCanvasView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKSignatureCanvasView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XKSignatureCanvasView_Tests/Pods-XKSignatureCanvasView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				C25854BE03CB450C8C83E432 /* Pods-XKSignatureCanvasView_Tests.debug.xcconfig */,
 				C1DAEEF95BF23F3F3BC6D5AB /* Pods-XKSignatureCanvasView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -479,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XKSignatureCanvasView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XKSignatureCanvasView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -516,6 +518,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -534,6 +537,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

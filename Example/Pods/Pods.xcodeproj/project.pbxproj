@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		037888F9EE4F5D0AC5F18650E85F3775 /* XKSignatureCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B30CC0F0654F70898F88946903F4C37 /* XKSignatureCanvasView.swift */; };
+		12D34E13C62649CE19B6B46AE3E42BF6 /* Pods-XKSignatureCanvasView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 659EF3AEFBEB011A19AFCC8FD7CAD288 /* Pods-XKSignatureCanvasView_Example-dummy.m */; };
+		2B0D087A64B2DB41918E66EF4CFD89E2 /* XKSignatureCanvasView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A99BC26718E44164F252D22D61ABC75 /* XKSignatureCanvasView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37464380AFAED62E42CEBAC5A7ACC21E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		5C0751597F30D494F2A53C50FF5AAECA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		638F47E2C94D381806D897A572A48EE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		807DE375088977417AA2DE6E69F6D05C /* Pods-XKSignatureCanvasView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E476B9C3C5E49F1D314077A3AB52BA00 /* Pods-XKSignatureCanvasView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E484537290C678960F10EDCE03DCA25 /* Pods-XKSignatureCanvasView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E84030EDFF39CB4C51B84EDA607DFC87 /* Pods-XKSignatureCanvasView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F28495C2F3CD960005B84A8 /* XKSignatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F28495B2F3CD960005B84A8 /* XKSignatureViewController.swift */; };
+		EF7BBAEE0EB29E18CC19272640188715 /* XKSignatureCanvasView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CC3949BCC6D799A2E7B37172726774 /* XKSignatureCanvasView-dummy.m */; };
+		F4247D53126DDDE3171969DB917F52A2 /* Pods-XKSignatureCanvasView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF222E901D670474C2C6B0BBB0D7DEF /* Pods-XKSignatureCanvasView_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6696F2D579396867D117299679B64540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A739104C305FFF430380FF718B86C841;
+			remoteInfo = "Pods-XKSignatureCanvasView_Example";
+		};
+		D1CF2EF6D068AB10EFAFE588DDB1EDAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46D6CE83BBEC72AA9E9B50D94A8D1FBD;
+			remoteInfo = XKSignatureCanvasView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D7D3975AEAD18CCC3B6D009585BCBD3 /* Pods-XKSignatureCanvasView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XKSignatureCanvasView_Tests.modulemap"; sourceTree = "<group>"; };
+		1387B47E3ADC60C50F83D1DB630FFC2F /* Pods-XKSignatureCanvasView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKSignatureCanvasView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		440E0FE3A3D7959BA040DE0C83CA1DFC /* Pods-XKSignatureCanvasView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKSignatureCanvasView_Tests-Info.plist"; sourceTree = "<group>"; };
+		46E5F5D75E0278D54E1285CCFA8E1928 /* Pods-XKSignatureCanvasView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XKSignatureCanvasView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		51CC3949BCC6D799A2E7B37172726774 /* XKSignatureCanvasView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XKSignatureCanvasView-dummy.m"; sourceTree = "<group>"; };
+		5719A50CBF5D1D376A649D5397D3F650 /* Pods_XKSignatureCanvasView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XKSignatureCanvasView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58A5465A0784AD1827A141A6B461D994 /* Pods-XKSignatureCanvasView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XKSignatureCanvasView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		659EF3AEFBEB011A19AFCC8FD7CAD288 /* Pods-XKSignatureCanvasView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XKSignatureCanvasView_Example-dummy.m"; sourceTree = "<group>"; };
+		6D36E54737664B910D9EF56E42C5DEDA /* XKSignatureCanvasView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XKSignatureCanvasView-Info.plist"; sourceTree = "<group>"; };
+		772408970E64CBB03144E3D3AD0D19C2 /* Pods-XKSignatureCanvasView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKSignatureCanvasView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C43A6A34093702ED5A366079FC21595 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8B30CC0F0654F70898F88946903F4C37 /* XKSignatureCanvasView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XKSignatureCanvasView.swift; path = XKSignatureCanvasView/Classes/XKSignatureCanvasView.swift; sourceTree = "<group>"; };
+		983C0C26C8AF7DD843EEFBAA564873F8 /* Pods_XKSignatureCanvasView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XKSignatureCanvasView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		992647F44D57316ECED12587FE6FA778 /* XKSignatureCanvasView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XKSignatureCanvasView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		994AC34A2EA51655F0314D277969E597 /* XKSignatureCanvasView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKSignatureCanvasView-prefix.pch"; sourceTree = "<group>"; };
+		9A99BC26718E44164F252D22D61ABC75 /* XKSignatureCanvasView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKSignatureCanvasView-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F28495B2F3CD960005B84A8 /* XKSignatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XKSignatureViewController.swift; path = XKSignatureCanvasView/Classes/XKSignatureViewController.swift; sourceTree = "<group>"; };
+		9FC93A0799D66974F8DF0534E3C47F4D /* XKSignatureCanvasView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKSignatureCanvasView.release.xcconfig; sourceTree = "<group>"; };
+		B07B0EC3DD727F6531DF4C2A63311D56 /* Pods-XKSignatureCanvasView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XKSignatureCanvasView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B591745F95AE39D2D14D039B55DCCF27 /* Pods-XKSignatureCanvasView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKSignatureCanvasView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B8318B5E243F9D75241CDB5EDF301DAF /* XKSignatureCanvasView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XKSignatureCanvasView.modulemap; sourceTree = "<group>"; };
+		BD4F6581E13C0BF664964736CF11B3C9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BDF222E901D670474C2C6B0BBB0D7DEF /* Pods-XKSignatureCanvasView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XKSignatureCanvasView_Tests-dummy.m"; sourceTree = "<group>"; };
+		C60A66EA1A90730471C4BF96761D6002 /* Pods-XKSignatureCanvasView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKSignatureCanvasView_Example-Info.plist"; sourceTree = "<group>"; };
+		DD519F3FB58B49BBF40E64EA2A952003 /* Pods-XKSignatureCanvasView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XKSignatureCanvasView_Example.modulemap"; sourceTree = "<group>"; };
+		E0171E37505CF18DFFB488C4D15F860E /* XKSignatureCanvasView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKSignatureCanvasView.debug.xcconfig; sourceTree = "<group>"; };
+		E0DD7429ED82B181C50C87BA0C475E1C /* XKSignatureCanvasView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XKSignatureCanvasView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E476B9C3C5E49F1D314077A3AB52BA00 /* Pods-XKSignatureCanvasView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XKSignatureCanvasView_Example-umbrella.h"; sourceTree = "<group>"; };
+		E84030EDFF39CB4C51B84EDA607DFC87 /* Pods-XKSignatureCanvasView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XKSignatureCanvasView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EEFFAE5A2A1645336D690A23B7E18550 /* Pods-XKSignatureCanvasView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKSignatureCanvasView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EF174D36D55350671A8D7ADB74B4BFE0 /* Pods-XKSignatureCanvasView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKSignatureCanvasView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F2A24DE63ED14219AA3C31FE9A3F6D1B /* Pods-XKSignatureCanvasView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKSignatureCanvasView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31AD3FA831F825B2AD9DED74C463DF37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C0751597F30D494F2A53C50FF5AAECA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79589D80765294994CF560A360B9E60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638F47E2C94D381806D897A572A48EE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD9AC46FFA0DD8F375347CC4D52744BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37464380AFAED62E42CEBAC5A7ACC21E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		242C8C10CCAF6FF92F190AD7984A710A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C96F27AB218109F2E406AB56D969B6C /* Pods-XKSignatureCanvasView_Example */,
+				6600F078A7C427EEBAE84B5325878B80 /* Pods-XKSignatureCanvasView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3C96F27AB218109F2E406AB56D969B6C /* Pods-XKSignatureCanvasView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DD519F3FB58B49BBF40E64EA2A952003 /* Pods-XKSignatureCanvasView_Example.modulemap */,
+				46E5F5D75E0278D54E1285CCFA8E1928 /* Pods-XKSignatureCanvasView_Example-acknowledgements.markdown */,
+				772408970E64CBB03144E3D3AD0D19C2 /* Pods-XKSignatureCanvasView_Example-acknowledgements.plist */,
+				659EF3AEFBEB011A19AFCC8FD7CAD288 /* Pods-XKSignatureCanvasView_Example-dummy.m */,
+				58A5465A0784AD1827A141A6B461D994 /* Pods-XKSignatureCanvasView_Example-frameworks.sh */,
+				C60A66EA1A90730471C4BF96761D6002 /* Pods-XKSignatureCanvasView_Example-Info.plist */,
+				E476B9C3C5E49F1D314077A3AB52BA00 /* Pods-XKSignatureCanvasView_Example-umbrella.h */,
+				EF174D36D55350671A8D7ADB74B4BFE0 /* Pods-XKSignatureCanvasView_Example.debug.xcconfig */,
+				1387B47E3ADC60C50F83D1DB630FFC2F /* Pods-XKSignatureCanvasView_Example.release.xcconfig */,
+			);
+			name = "Pods-XKSignatureCanvasView_Example";
+			path = "Target Support Files/Pods-XKSignatureCanvasView_Example";
+			sourceTree = "<group>";
+		};
+		48693D864BB6D2F8A4C36772E6C766F7 /* XKSignatureCanvasView */ = {
+			isa = PBXGroup;
+			children = (
+				8B30CC0F0654F70898F88946903F4C37 /* XKSignatureCanvasView.swift */,
+				9F28495B2F3CD960005B84A8 /* XKSignatureViewController.swift */,
+				90608114AF6B585285008A7A13C164B9 /* Pod */,
+				6D7CAB5953E8E0136A06CF1867393629 /* Support Files */,
+			);
+			name = XKSignatureCanvasView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		620FD7A0456E02F15F4977DE446B4A14 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48693D864BB6D2F8A4C36772E6C766F7 /* XKSignatureCanvasView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6600F078A7C427EEBAE84B5325878B80 /* Pods-XKSignatureCanvasView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0D7D3975AEAD18CCC3B6D009585BCBD3 /* Pods-XKSignatureCanvasView_Tests.modulemap */,
+				B07B0EC3DD727F6531DF4C2A63311D56 /* Pods-XKSignatureCanvasView_Tests-acknowledgements.markdown */,
+				B591745F95AE39D2D14D039B55DCCF27 /* Pods-XKSignatureCanvasView_Tests-acknowledgements.plist */,
+				BDF222E901D670474C2C6B0BBB0D7DEF /* Pods-XKSignatureCanvasView_Tests-dummy.m */,
+				440E0FE3A3D7959BA040DE0C83CA1DFC /* Pods-XKSignatureCanvasView_Tests-Info.plist */,
+				E84030EDFF39CB4C51B84EDA607DFC87 /* Pods-XKSignatureCanvasView_Tests-umbrella.h */,
+				F2A24DE63ED14219AA3C31FE9A3F6D1B /* Pods-XKSignatureCanvasView_Tests.debug.xcconfig */,
+				EEFFAE5A2A1645336D690A23B7E18550 /* Pods-XKSignatureCanvasView_Tests.release.xcconfig */,
+			);
+			name = "Pods-XKSignatureCanvasView_Tests";
+			path = "Target Support Files/Pods-XKSignatureCanvasView_Tests";
+			sourceTree = "<group>";
+		};
+		6D7CAB5953E8E0136A06CF1867393629 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8318B5E243F9D75241CDB5EDF301DAF /* XKSignatureCanvasView.modulemap */,
+				51CC3949BCC6D799A2E7B37172726774 /* XKSignatureCanvasView-dummy.m */,
+				6D36E54737664B910D9EF56E42C5DEDA /* XKSignatureCanvasView-Info.plist */,
+				994AC34A2EA51655F0314D277969E597 /* XKSignatureCanvasView-prefix.pch */,
+				9A99BC26718E44164F252D22D61ABC75 /* XKSignatureCanvasView-umbrella.h */,
+				E0171E37505CF18DFFB488C4D15F860E /* XKSignatureCanvasView.debug.xcconfig */,
+				9FC93A0799D66974F8DF0534E3C47F4D /* XKSignatureCanvasView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XKSignatureCanvasView";
+			sourceTree = "<group>";
+		};
+		90608114AF6B585285008A7A13C164B9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7C43A6A34093702ED5A366079FC21595 /* LICENSE */,
+				BD4F6581E13C0BF664964736CF11B3C9 /* README.md */,
+				E0DD7429ED82B181C50C87BA0C475E1C /* XKSignatureCanvasView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				620FD7A0456E02F15F4977DE446B4A14 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				FFD51836E194C61232AAED537B992DE0 /* Products */,
+				242C8C10CCAF6FF92F190AD7984A710A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FFD51836E194C61232AAED537B992DE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				983C0C26C8AF7DD843EEFBAA564873F8 /* Pods_XKSignatureCanvasView_Example.framework */,
+				5719A50CBF5D1D376A649D5397D3F650 /* Pods_XKSignatureCanvasView_Tests.framework */,
+				992647F44D57316ECED12587FE6FA778 /* XKSignatureCanvasView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2ABC1892EC4131E764C5E38E4AA56C8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0D087A64B2DB41918E66EF4CFD89E2 /* XKSignatureCanvasView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		385ED883A0DD50FD81E048974F15C36A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807DE375088977417AA2DE6E69F6D05C /* Pods-XKSignatureCanvasView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E1F999391050661633BCEE3DFFEF06F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E484537290C678960F10EDCE03DCA25 /* Pods-XKSignatureCanvasView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		46D6CE83BBEC72AA9E9B50D94A8D1FBD /* XKSignatureCanvasView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D059CC556845FB34C23F38CED2A9D5A7 /* Build configuration list for PBXNativeTarget "XKSignatureCanvasView" */;
+			buildPhases = (
+				2ABC1892EC4131E764C5E38E4AA56C8E /* Headers */,
+				0B2917F062962B8748DD1EE14FAB7F84 /* Sources */,
+				B79589D80765294994CF560A360B9E60 /* Frameworks */,
+				1A325033E24C373C05CBA89242B412F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XKSignatureCanvasView;
+			productName = XKSignatureCanvasView;
+			productReference = 992647F44D57316ECED12587FE6FA778 /* XKSignatureCanvasView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4FEDBC05B598143406354F47ABC4C4B2 /* Pods-XKSignatureCanvasView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01E6A9F5EA7D7D5AE650A7A60F6F60D4 /* Build configuration list for PBXNativeTarget "Pods-XKSignatureCanvasView_Tests" */;
+			buildPhases = (
+				6E1F999391050661633BCEE3DFFEF06F /* Headers */,
+				A45AA8014998BE2069FB12F853911967 /* Sources */,
+				FD9AC46FFA0DD8F375347CC4D52744BA /* Frameworks */,
+				87F4AF619CA94AB6F0188EC1FBBE526E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EC881EC24416FDC324A38CB26258DDD /* PBXTargetDependency */,
+			);
+			name = "Pods-XKSignatureCanvasView_Tests";
+			productName = Pods_XKSignatureCanvasView_Tests;
+			productReference = 5719A50CBF5D1D376A649D5397D3F650 /* Pods_XKSignatureCanvasView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A739104C305FFF430380FF718B86C841 /* Pods-XKSignatureCanvasView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6D8753884D1558BDC8FFC89083A2FC /* Build configuration list for PBXNativeTarget "Pods-XKSignatureCanvasView_Example" */;
+			buildPhases = (
+				385ED883A0DD50FD81E048974F15C36A /* Headers */,
+				EBE63C1C0125631C2235A7BDACB1EFB5 /* Sources */,
+				31AD3FA831F825B2AD9DED74C463DF37 /* Frameworks */,
+				AA1DC8E29A7621D7B317AD94D1F30048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C87010CFCA612641245CCF87919CEAF2 /* PBXTargetDependency */,
+			);
+			name = "Pods-XKSignatureCanvasView_Example";
+			productName = Pods_XKSignatureCanvasView_Example;
+			productReference = 983C0C26C8AF7DD843EEFBAA564873F8 /* Pods_XKSignatureCanvasView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FFD51836E194C61232AAED537B992DE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A739104C305FFF430380FF718B86C841 /* Pods-XKSignatureCanvasView_Example */,
+				4FEDBC05B598143406354F47ABC4C4B2 /* Pods-XKSignatureCanvasView_Tests */,
+				46D6CE83BBEC72AA9E9B50D94A8D1FBD /* XKSignatureCanvasView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A325033E24C373C05CBA89242B412F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F4AF619CA94AB6F0188EC1FBBE526E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1DC8E29A7621D7B317AD94D1F30048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B2917F062962B8748DD1EE14FAB7F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F28495C2F3CD960005B84A8 /* XKSignatureViewController.swift in Sources */,
+				037888F9EE4F5D0AC5F18650E85F3775 /* XKSignatureCanvasView.swift in Sources */,
+				EF7BBAEE0EB29E18CC19272640188715 /* XKSignatureCanvasView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45AA8014998BE2069FB12F853911967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4247D53126DDDE3171969DB917F52A2 /* Pods-XKSignatureCanvasView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE63C1C0125631C2235A7BDACB1EFB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D34E13C62649CE19B6B46AE3E42BF6 /* Pods-XKSignatureCanvasView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EC881EC24416FDC324A38CB26258DDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XKSignatureCanvasView_Example";
+			target = A739104C305FFF430380FF718B86C841 /* Pods-XKSignatureCanvasView_Example */;
+			targetProxy = 6696F2D579396867D117299679B64540 /* PBXContainerItemProxy */;
+		};
+		C87010CFCA612641245CCF87919CEAF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XKSignatureCanvasView;
+			target = 46D6CE83BBEC72AA9E9B50D94A8D1FBD /* XKSignatureCanvasView */;
+			targetProxy = D1CF2EF6D068AB10EFAFE588DDB1EDAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3A326C2C62A0728F269D326ED3C20040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF174D36D55350671A8D7ADB74B4BFE0 /* Pods-XKSignatureCanvasView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-XKSignatureCanvasView_Example/Pods-XKSignatureCanvasView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XKSignatureCanvasView_Example/Pods-XKSignatureCanvasView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A7EDD0EA7BE82089FDAF1CEA79C7ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2A24DE63ED14219AA3C31FE9A3F6D1B /* Pods-XKSignatureCanvasView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-XKSignatureCanvasView_Tests/Pods-XKSignatureCanvasView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XKSignatureCanvasView_Tests/Pods-XKSignatureCanvasView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8BA599B3993F2D9B0D0839A8CF665059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0171E37505CF18DFFB488C4D15F860E /* XKSignatureCanvasView.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/XKSignatureCanvasView/XKSignatureCanvasView-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/XKSignatureCanvasView/XKSignatureCanvasView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XKSignatureCanvasView/XKSignatureCanvasView.modulemap";
+				PRODUCT_MODULE_NAME = XKSignatureCanvasView;
+				PRODUCT_NAME = XKSignatureCanvasView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B4F6BA881B89E47E13EBDBD227DC9595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1387B47E3ADC60C50F83D1DB630FFC2F /* Pods-XKSignatureCanvasView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-XKSignatureCanvasView_Example/Pods-XKSignatureCanvasView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XKSignatureCanvasView_Example/Pods-XKSignatureCanvasView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D538281520A7DE01804E8D9468980317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FC93A0799D66974F8DF0534E3C47F4D /* XKSignatureCanvasView.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/XKSignatureCanvasView/XKSignatureCanvasView-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/XKSignatureCanvasView/XKSignatureCanvasView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XKSignatureCanvasView/XKSignatureCanvasView.modulemap";
+				PRODUCT_MODULE_NAME = XKSignatureCanvasView;
+				PRODUCT_NAME = XKSignatureCanvasView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE0A2E1E3D858825E05F870D572376C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEFFAE5A2A1645336D690A23B7E18550 /* Pods-XKSignatureCanvasView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-XKSignatureCanvasView_Tests/Pods-XKSignatureCanvasView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XKSignatureCanvasView_Tests/Pods-XKSignatureCanvasView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01E6A9F5EA7D7D5AE650A7A60F6F60D4 /* Build configuration list for PBXNativeTarget "Pods-XKSignatureCanvasView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A7EDD0EA7BE82089FDAF1CEA79C7ACF /* Debug */,
+				EE0A2E1E3D858825E05F870D572376C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D059CC556845FB34C23F38CED2A9D5A7 /* Build configuration list for PBXNativeTarget "XKSignatureCanvasView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BA599B3993F2D9B0D0839A8CF665059 /* Debug */,
+				D538281520A7DE01804E8D9468980317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF6D8753884D1558BDC8FFC89083A2FC /* Build configuration list for PBXNativeTarget "Pods-XKSignatureCanvasView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A326C2C62A0728F269D326ED3C20040 /* Debug */,
+				B4F6BA881B89E47E13EBDBD227DC9595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
